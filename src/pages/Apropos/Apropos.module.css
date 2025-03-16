@@ -1,0 +1,38 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px 38px;
+    padding-top: 40px;
+    gap: 38px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 38px;
+}
+@media (max-width: 1285px) {
+    .content {
+        margin: 0px 40px 50px;
+    }
+}
+@media (max-width: 768px) {
+    .content {
+        margin: 0;
+        padding: 20px 19px 19px 19px;
+        gap: 19px;
+    }
+}
+.content__itemList {
+    margin: auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+.content__itemList__item {
+    margin: 0;
+    padding: 0;
+}
+
+/*# sourceMappingURL=Apropos.module.css.map */

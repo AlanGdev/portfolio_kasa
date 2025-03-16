@@ -1,0 +1,42 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.page {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px 50px;
+    padding-top: 45px;
+    gap: 50px;
+    background-color: rgb(255, 255, 255);
+}
+@media (max-width: 1285px) {
+    .page {
+        margin: 0px 40px 50px;
+    }
+}
+@media (max-width: 768px) {
+    .page {
+        padding-top: 20px;
+        margin: 0px 19px;
+        margin-bottom: 27px;
+        gap: 27px;
+    }
+}
+@media (max-width: 768px) {
+    .page__body {
+        gap: 22px;
+    }
+}
+.page__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+@media (max-width: 768px) {
+    .page__body {
+        gap: 22px;
+    }
+}
+
+/*# sourceMappingURL=Home.module.css.map */

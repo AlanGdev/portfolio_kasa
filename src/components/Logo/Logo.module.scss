@@ -1,0 +1,9 @@
+@use '../../styles/variables.scss' as var;
+.logo {
+    height: 68px;
+    width: auto;
+    @media (max-width: var.$breakpoint) {
+        width: 145px;
+        height: auto;
+    }
+}

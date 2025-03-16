@@ -1,0 +1,33 @@
+@use '../../styles/variables.scss' as var;
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0;
+    gap: 10px;
+    margin: 20px 0 0;
+    @media (max-width: var.$breakpoint) {
+        margin-top: 10px;
+        margin-bottom: 16px;
+    }
+
+    &__tag {
+        box-sizing: border-box;
+        text-align: center;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 22px;
+        border-radius: 10px;
+        background-color: var.$primary-color;
+        color: var.$secondary-color;
+        font-size: 14px;
+        font-weight: 700;
+        @media (max-width: var.$breakpoint) {
+            font-size: 10px;
+            height: 18px;
+        }
+    }
+}

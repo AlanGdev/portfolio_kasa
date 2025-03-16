@@ -1,0 +1,33 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.titleLoge {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.titleLoge__title {
+    color: rgb(255, 96, 96);
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px) {
+    .titleLoge__title {
+        font-size: 18px;
+    }
+}
+.titleLoge__location {
+    font-size: 18px;
+    margin: 0;
+    padding: 2px 0;
+    font-weight: 500;
+}
+@media (max-width: 768px) {
+    .titleLoge__location {
+        font-size: 14px;
+    }
+}
+
+/*# sourceMappingURL=TitleLoge.module.css.map */

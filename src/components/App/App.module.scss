@@ -1,0 +1,17 @@
+@use '../../styles/variables.scss' as var;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: var.$min-width;
+    max-width: var.$max-width;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    min-height: 100vh;
+}

@@ -1,0 +1,74 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.page {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px 139px;
+    padding-top: 40px;
+    gap: 139px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 139px;
+}
+@media (max-width: 1285px) {
+    .page {
+        margin: 0px 40px 50px;
+    }
+}
+@media (max-width: 768px) {
+    .page {
+        margin: 0 19px;
+        padding-top: 20px;
+        gap: 113px;
+        margin-bottom: 113px;
+    }
+}
+@media (max-width: 768px) {
+    .page {
+        gap: 113px;
+    }
+}
+.page__title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 1;
+    text-align: center;
+    color: rgb(255, 96, 96);
+}
+@media (max-width: 768px) {
+    .page__title {
+        font-size: 96px;
+    }
+}
+.page__subtitle {
+    margin: 0;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.42;
+    text-align: center;
+    color: rgb(255, 96, 96);
+}
+@media (max-width: 768px) {
+    .page__subtitle {
+        font-size: 18px;
+    }
+}
+.page__link {
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25.67px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+@media (max-width: 768px) {
+    .page__link {
+        font-size: 14px;
+    }
+}
+
+/*# sourceMappingURL=Error.module.css.map */

@@ -1,0 +1,18 @@
+[
+    {
+        "path": "/",
+        "element": "Home"
+    },
+    {
+        "path": "/apropos",
+        "element": "Apropos"
+    },
+    {
+        "path": "/logement/:id",
+        "element": "Logement"
+    },
+    {
+        "path": "*",
+        "element": "Error"
+    }
+]

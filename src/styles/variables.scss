@@ -1,0 +1,110 @@
+$max-width: 1440px;
+$min-width: 375px;
+$breakpoint: 768px;
+$secundary-breakpoint: 1285px;
+
+$margin-Desktop: 100px;
+$margin-Mobile: 20px;
+
+$primary-color: rgba(255, 96, 96, 1);
+$secondary-color: rgba(255, 255, 255, 1);
+$third-color: rgba(0, 0, 0, 1);
+
+$background-color: rgba(246, 246, 246, 1);
+
+$weight-medium: 500;
+$font: Montserrat;
+
+$primary-radius: 25px;
+$secundary-radius: 10px;
+
+$cardDesktop-width: 340px;
+$carMobile-width: 335px;
+$carDesktop-height: 340px;
+$cardMobile-height: 255px;
+
+@mixin textShadow {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@mixin textShadowReset {
+    text-shadow: none;
+}
+@mixin boxShadow {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+@mixin borderRadMobile {
+    border-radius: 10px;
+}
+
+/* Pages Disposition */
+
+@mixin pageDisposition {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px 50px;
+    padding-top: 45px;
+    gap: 50px;
+    background-color: $secondary-color;
+    @media (max-width: $secundary-breakpoint) {
+        margin: 0px 40px 50px;
+    }
+
+    @media (max-width: $breakpoint) {
+        padding-top: 20px;
+        margin: 0px 19px;
+        margin-bottom: 27px;
+        gap: 27px;
+    }
+}
+@mixin pageError {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px 139px;
+    padding-top: 40px;
+    gap: 139px;
+    background-color: $secondary-color;
+    @media (max-width: $secundary-breakpoint) {
+        margin: 0px 40px 50px;
+    }
+
+    @media (max-width: $breakpoint) {
+        margin: 0 19px;
+        padding-top: 20px;
+        gap: 113px;
+        margin-bottom: 113px;
+    }
+}
+@mixin pageApropos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px 38px;
+    padding-top: 40px;
+    gap: 38px;
+    background-color: $secondary-color;
+    @media (max-width: $secundary-breakpoint) {
+        margin: 0px 40px 50px;
+    }
+
+    @media (max-width: $breakpoint) {
+        margin: 0;
+        padding: 20px 19px 19px 19px;
+        gap: 19px;
+    }
+}
+/* Center*/
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* linear Gradient */
+@mixin linear-gradient {
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(10, 10, 10, 0),
+        rgba(4, 4, 4, 0.2),
+        rgba(0, 0, 0, 0.5)
+    );
+}

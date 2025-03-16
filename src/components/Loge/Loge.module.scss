@@ -1,0 +1,45 @@
+@use '../../styles/variables.scss' as var;
+.loge {
+    display: flex;
+    flex-direction: column;
+}
+.description {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: var.$breakpoint) {
+        flex-direction: column;
+    }
+}
+.title {
+    display: flex;
+    flex-direction: column;
+}
+.hostRating {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    @media (max-width: var.$breakpoint) {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__host {
+        @media (max-width: var.$breakpoint) {
+            flex: 1;
+        }
+    }
+}
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 76px;
+    margin-top: 25px;
+    @media (max-width: var.$breakpoint) {
+        margin-top: 13px;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}

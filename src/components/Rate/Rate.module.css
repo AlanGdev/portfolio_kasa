@@ -1,0 +1,32 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.rating {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+.rating__star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+}
+@media (max-width: 768px) {
+    .rating__star {
+        width: 18px;
+        height: 18px;
+        font-size: 13px;
+    }
+}
+.rating__star--not-colored {
+    color: rgb(227, 227, 227);
+}
+.rating__star--colored {
+    color: rgb(255, 96, 96);
+}
+
+/*# sourceMappingURL=Rate.module.css.map */

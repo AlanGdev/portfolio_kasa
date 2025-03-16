@@ -1,0 +1,17 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    min-width: 375px;
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+/*# sourceMappingURL=App.module.css.map */

@@ -1,0 +1,15 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.logo {
+    height: 68px;
+    width: auto;
+}
+@media (max-width: 768px) {
+    .logo {
+        width: 145px;
+        height: auto;
+    }
+}
+
+/*# sourceMappingURL=Logo.module.css.map */

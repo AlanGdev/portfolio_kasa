@@ -1,0 +1,47 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.gallery {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 25px;
+    background-color: rgb(246, 246, 246);
+}
+@media (max-width: 1285px) {
+    .gallery {
+        gap: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .gallery {
+        padding: 0;
+        row-gap: 20px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+.gallery__item {
+    width: 33.3333333333%;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1285px) {
+    .gallery__item {
+        width: calc(50% - 10px);
+        height: 300px;
+    }
+}
+@media (max-width: 768px) {
+    .gallery__item {
+        width: 100%;
+        height: 255px;
+    }
+}
+
+/*# sourceMappingURL=Gallery.module.css.map */

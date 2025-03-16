@@ -1,0 +1,29 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.navbar {
+    display: flex;
+    gap: 57px;
+}
+@media (max-width: 768px) {
+    .navbar {
+        gap: 26px;
+    }
+}
+.navbar__link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: right;
+}
+@media (max-width: 768px) {
+    .navbar__link {
+        font-size: 12px;
+    }
+}
+.navbar__linkUnderline {
+    text-decoration: underline;
+}
+
+/*# sourceMappingURL=Navbar.module.css.map */

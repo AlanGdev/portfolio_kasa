@@ -1,0 +1,21 @@
+@use '../../styles/variables.scss' as var;
+.navbar {
+    display: flex;
+    gap: 57px;
+    @media (max-width: var.$breakpoint) {
+        gap: 26px;
+    }
+    &__link {
+        color: var.$third-color;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 500;
+        text-align: right;
+        @media (max-width: var.$breakpoint) {
+            font-size: 12px;
+        }
+        &Underline {
+            text-decoration: underline;
+        }
+    }
+}

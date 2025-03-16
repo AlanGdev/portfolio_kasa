@@ -1,0 +1,59 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.loge {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .description {
+        flex-direction: column;
+    }
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.hostRating {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+@media (max-width: 768px) {
+    .hostRating {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .hostRating__host {
+        flex: 1;
+    }
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 76px;
+    margin-top: 25px;
+}
+@media (max-width: 768px) {
+    .details {
+        margin-top: 13px;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/*# sourceMappingURL=Loge.module.css.map */

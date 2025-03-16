@@ -1,0 +1,113 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.top-bar {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    background-color: rgb(255, 96, 96);
+    border-radius: 5px;
+}
+.top-bar__title {
+    margin: 0;
+}
+@media (max-width: 768px) {
+    .top-bar__title {
+        font-size: 13px;
+    }
+}
+.top-bar__button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    transform: rotate(0 deg);
+    transition: all 0.3s ease-out;
+}
+.top-bar__button--open {
+    transform: rotate(-180deg);
+}
+@media (max-width: 768px) {
+    .top-bar {
+        padding: 10px 10px 10px 10px;
+        height: 30px !important;
+    }
+}
+
+.frame {
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 0;
+    margin: 0;
+    border-radius: 10px 10px 5px 5px;
+    padding: 0px 20px;
+    background-color: rgb(246, 246, 246);
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    height: 0px;
+    transition: all 0.3s ease-out;
+}
+.frame--open {
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+}
+.frame__content {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    transform-origin: 50% 0;
+    transform: translateY(-100%);
+    transition: all 0.3s ease-out;
+}
+.frame__content--open {
+    transform: translateY(0);
+}
+@media (max-width: 768px) {
+    .frame__content {
+        font-size: 12px;
+    }
+}
+
+.collapse {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 1024px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+.collapse .top-bar {
+    padding: 10px 15px 10px 15px;
+    font-size: 24px;
+}
+.collapse-medium {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 1024px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+.collapse-medium .top-bar {
+    padding: 10px 20px 10px 10px;
+    font-size: 18px;
+}
+
+/*# sourceMappingURL=Collapse.module.css.map */

@@ -1,0 +1,25 @@
+@use '../../styles/variables.scss' as var;
+.rating {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    &__star {
+        @include var.center;
+        width: 36px;
+        height: 36px;
+        font-size: 24px;
+        @media (max-width: var.$breakpoint) {
+            width: 18px;
+            height: 18px;
+            font-size: 13px;
+        }
+
+        &--not-colored {
+            color: rgb(227, 227, 227);
+        }
+        &--colored {
+            color: var.$primary-color;
+        }
+    }
+}

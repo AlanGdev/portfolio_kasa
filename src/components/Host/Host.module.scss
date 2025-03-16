@@ -1,0 +1,28 @@
+@use '../../styles/variables.scss' as var;
+.host {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    gap: 10px;
+    width: 167px;
+    &__name {
+        color: var.$primary-color;
+        font-weight: 500;
+        font-size: 18px;
+        margin: 0;
+        @media (max-width: var.$breakpoint) {
+            font-size: 12px;
+            width: 135.5px;
+        }
+    }
+    &__picture {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        object-fit: cover;
+        @media (max-width: var.$breakpoint) {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}

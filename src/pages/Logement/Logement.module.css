@@ -1,0 +1,26 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px 50px;
+    padding-top: 45px;
+    gap: 50px;
+    background-color: rgb(255, 255, 255);
+}
+@media (max-width: 1285px) {
+    .content {
+        margin: 0px 40px 50px;
+    }
+}
+@media (max-width: 768px) {
+    .content {
+        padding-top: 20px;
+        margin: 0px 19px;
+        margin-bottom: 27px;
+        gap: 27px;
+    }
+}
+
+/*# sourceMappingURL=Logement.module.css.map */

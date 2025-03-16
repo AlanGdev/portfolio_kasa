@@ -1,0 +1,44 @@
+/* Pages Disposition */
+/* Center*/
+/* linear Gradient */
+.footer {
+    max-width: 1440px;
+    height: 209px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__img {
+    position: absolute;
+    top: 66px;
+    margin: 0;
+    width: 122px;
+    height: 39.44px;
+}
+
+.footer__text {
+    position: absolute;
+    top: 134px;
+    width: 513px;
+    height: 46px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    line-height: 34.22px;
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 768px) {
+    .footer__text {
+        top: 105px;
+        width: 133.59px;
+        font-size: 12px;
+        line-height: 17.11px;
+    }
+}
+
+/*# sourceMappingURL=Footer.module.css.map */

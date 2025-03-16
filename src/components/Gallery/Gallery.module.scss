@@ -1,0 +1,35 @@
+@use '../../styles/variables.scss' as var;
+.gallery {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    border-radius: 25px;
+    background-color: var.$background-color;
+    @media (max-width: var.$secundary-breakpoint) {
+        gap: 20px;
+    }
+    @media (max-width: var.$breakpoint) {
+        padding: 0;
+        row-gap: 20px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    &__item {
+        width: calc(100% / 3);
+        aspect-ratio: 1/1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @media (max-width: var.$secundary-breakpoint) {
+            width: calc(100% / 2 - 10px);
+            height: 300px;
+        }
+        @media (max-width: var.$breakpoint) {
+            width: 100%;
+            height: 255px;
+        }
+    }
+}

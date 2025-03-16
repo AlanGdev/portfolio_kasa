@@ -1,0 +1,26 @@
+@use '../../styles/variables.scss' as var;
+
+.titleLoge {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &__title {
+        color: var.$primary-color;
+        font-weight: 500;
+        font-size: 36px;
+        margin: 0;
+        padding: 0;
+        @media (max-width: var.$breakpoint) {
+            font-size: 18px;
+        }
+    }
+    &__location {
+        font-size: 18px;
+        margin: 0;
+        padding: 2px 0;
+        font-weight: 500;
+        @media (max-width: var.$breakpoint) {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+@use '../../styles/variables.scss' as var;
+.footer {
+    max-width: 1440px;
+    height: 209px;
+    background-color: var.$third-color;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    @include var.center;
+
+    &__img {
+        position: absolute;
+        top: 66px;
+        margin: 0;
+        width: 122px;
+        height: 39.44px;
+    }
+    &__text {
+        position: absolute;
+        top: 134px;
+        width: 513px;
+        height: 46px;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        line-height: 34.22px;
+        color: var.$secondary-color;
+        @media (max-width: var.$breakpoint) {
+            top: 105px;
+            width: 133.59px;
+            font-size: 12px;
+            line-height: 17.11px;
+        }
+    }
+}
