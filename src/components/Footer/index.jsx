@@ -1,4 +1,4 @@
-import picture from '../../assets/logoWhite.png'
+import picture from '../../assets/LogoWhite.png'
 import styles from './Footer.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCopyright } from '@fortawesome/free-regular-svg-icons'
